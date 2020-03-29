@@ -12,6 +12,7 @@ app.use(express.json());
 app.use(routes);
 app.use(errors());
 
+module.exports = app;
 /**
  * Rota / Recurso
  */
@@ -46,5 +47,3 @@ app.use(errors());
       */
 
 
-
-app.listen(3333);
